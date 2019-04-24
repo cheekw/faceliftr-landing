@@ -5,9 +5,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- CSS Files -->
+    <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!-- JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title>faceliftr.</title>
 </head>
@@ -22,8 +27,8 @@
             </div>
             <div class="landing-mission">become your picture perfect</div>
             <div class="landing-mission-subtitle">find your skincare</div>
-            <img class="circle-image" src="./images/circle.png"/>
-            <img class="mission-image" src="./images/skincare.png"/>
+            <img data-aos="fade-left" class="circle-image" src="./images/circle.png" />
+            <img data-aos="fade-left" class="mission-image" src="./images/skincare.png" />
         </div>
 
         <div class="landing-container snapshot">
@@ -32,7 +37,7 @@
                 <div class="landing-content-text">
                     a face selfie and questionaire is all we need to analyze your skin profile.
                 </div>
-                <img class="snapshot-image" src="./images/face-scan.png"/>
+                <img data-aos="fade-right" class="snapshot-image" src="./images/face-scan.png" />
             </div>
         </div>
 
@@ -42,7 +47,7 @@
                 <div class="landing-content-text">
                     skincare product recommendations tailored to your skin.
                 </div>
-                <img class="recommend-image" src="./images/recommend.png"/>
+                <img data-aos="fade-left" class="recommend-image" src="./images/recommend.png" />
             </div>
         </div>
 
@@ -50,10 +55,10 @@
             <div class="landing-content customize-content">
                 <div class="landing-content-title">③ customize your routine</div>
                 <div class="landing-content-text">
-                    take liberties in building your own routine or modifying 
+                    take liberties in building your own routine or modifying
                     your recommended routine.
                 </div>
-                <img class="customize-image" src="./images/customize.png"/>
+                <img data-aos="fade-right" class="customize-image" src="./images/customize.png" />
             </div>
         </div>
 
@@ -65,9 +70,12 @@
                     save your skin data overtime to keep track of your skin improvements.
                 </div>
             </div>
-            <img class="track-image" src="./images/track.png"/>
+            <img data-aos="fade-left" class="track-image" src="./images/track.png" />
         </div>
     </div>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
