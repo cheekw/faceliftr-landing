@@ -29,24 +29,6 @@ body {
     display: flex;
 }
 
-.landing-mission {
-    margin-top: 20vh;
-    text-align: left;
-    align-items: center;
-    font-size: 3rem;
-}
-
-.landing-mission-subtitle {
-    margin-top: 2vh;
-    text-align: left;
-    font-size: 2rem;
-    color: white;
-}
-
-.landing-mission, .landing-mission-subtitle {
-    margin-left: 80px;
-}
-
 .landing-logo-text, .landing-signin-button {
     color: white;
     margin: 1em;
@@ -64,65 +46,6 @@ body {
 .landing-signin-button:hover {
     background: white;
     color: #2CD6A9;
-}
-
-.landing-content {
-    margin: 4em;
-    margin-top: 35vh;
-    max-width: 40vw;
-}
-
-.landing-content-title {
-    font-size: 2.5rem;
-}
-
-.landing-content-text {
-    margin-top: 1em;
-    font-size: 1.2em;
-    font-weight: lighter;
-}
-
-.circle-image {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    top: 25%;
-    left: 65%;
-}
-
-.mission-image {
-    max-width: 350px;
-    position: absolute;
-    top: 30%;
-    left: 70%;
-}
-
-.snapshot-image {
-    max-width: 350px;
-    position: absolute;
-    top: 120%;
-    left: 8%;
-}
-
-.recommend-image {
-    max-width: 600px;
-    position: absolute;
-    top: 200%;
-    left: 50%;
-}
-
-.customize-image {
-    max-width: 600px;
-    position: absolute;
-    top: 300%;
-    left: 5%;
-}
-
-.track-image {
-    max-width: 600px;
-    position: absolute;
-    top: 390%;
-    left: 50%;
 }
 
 .mission {
@@ -153,6 +76,143 @@ body {
     color: white;
 }
 
+.landing-mission {
+    margin-top: 7vh;
+    text-align: left;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.landing-mission-subtitle {
+    margin-top: 2vh;
+    text-align: left;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.landing-mission, .landing-mission-subtitle {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.landing-content {
+    margin: 3em;
+    margin-top: 10vh;
+    max-width: 70vw;
+}
+
+.landing-content-title {
+    font-size: 2rem;
+}
+
+.landing-content-text {
+    margin-top: 2em;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+.circle-image {
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    top: 60vh;
+    left: 6vh
+}
+
+.mission-image {
+    max-width: 8em;
+    position: absolute;
+    top: 60vh;
+    left: 10vh
+}
+
+.snapshot-image {
+    max-width: 12em;
+    position: absolute;
+    top: 150vh;
+    left: 25vw;
+}
+.recommend-image {
+    max-width: 40vh;
+    position: absolute;
+    top: 250vh;
+    left: 8vw;
+}
+.customize-image {
+    max-width: 40vh;
+    position: absolute;
+    top: 340vh;
+    left: 12vh;
+}
+.track-image {
+    max-width: 40vh;
+    position: absolute;
+    top: 430vh;
+    left: 8vw;
+}
+
+@media (min-width: 1024px) {
+    .landing-mission {
+        margin-top: 20vh;
+        font-size: 4vw;
+    }
+    .landing-mission-subtitle {
+        font-size: 2.5vw;
+    }
+    .landing-mission, .landing-mission-subtitle {
+        margin-left: 80px;
+    }
+    .landing-content {
+        margin: 4em;
+        margin-top: 35vh;
+        max-width: 40vw;
+    }
+    .landing-content-title {
+        font-size: 4vw;
+    }
+    .landing-content-text {
+        margin-top: 1em;
+        font-size: 2vw;
+        font-weight: lighter;
+    }
+    .circle-image {
+        width: 30vw;
+        height: 30vw;
+        position: absolute;
+        top: 25%;
+        left: 65%;
+    }
+    .mission-image {
+        max-width: 25vw;
+        position: absolute;
+        top: 30%;
+        left: 70%;
+    }
+    .snapshot-image {
+        max-width: 25vw;
+        position: absolute;
+        top: 120%;
+        left: 8%;
+    }
+    .recommend-image {
+        max-width: 40vw;
+        position: absolute;
+        top: 200%;
+        left: 50%;
+    }
+    .customize-image {
+        max-width: 40vw;
+        position: absolute;
+        top: 300%;
+        left: 5%;
+    }
+    .track-image {
+        max-width: 40vw;
+        position: absolute;
+        top: 390%;
+        left: 50%;
+    }
+}
 
 /* 
 .landing-title-container .landing-logo-text h1 {
