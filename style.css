@@ -23,7 +23,7 @@ body {
 
 .landing-container {
     width: 100%;
-    height: 95vh;
+    height: 90vh;
     margin: none;
     padding: none;
     display: flex;
@@ -129,25 +129,25 @@ body {
 .snapshot-image {
     max-width: 12em;
     position: absolute;
-    top: 150vh;
+    top: 140vh;
     left: 25vw;
 }
 .recommend-image {
     max-width: 40vh;
     position: absolute;
-    top: 250vh;
+    top: 230vh;
     left: 8vw;
 }
 .customize-image {
     max-width: 40vh;
     position: absolute;
-    top: 340vh;
+    top: 320vh;
     left: 12vh;
 }
 .track-image {
     max-width: 40vh;
     position: absolute;
-    top: 430vh;
+    top: 410vh;
     left: 8vw;
 }
 
@@ -191,25 +191,25 @@ body {
     .snapshot-image {
         max-width: 25vw;
         position: absolute;
-        top: 120%;
+        top: 110%;
         left: 8%;
     }
     .recommend-image {
         max-width: 40vw;
         position: absolute;
-        top: 200%;
+        top: 190%;
         left: 50%;
     }
     .customize-image {
         max-width: 40vw;
         position: absolute;
-        top: 300%;
+        top: 280%;
         left: 5%;
     }
     .track-image {
         max-width: 40vw;
         position: absolute;
-        top: 390%;
+        top: 375%;
         left: 50%;
     }
 }
